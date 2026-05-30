@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Common variables */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Light Mode Variables */
+  --bg-gradient: linear-gradient(135deg, #f6f8fb 0%, #e2e8f0 100%);
+  --bg-dots: rgba(99, 102, 241, 0.05);
+  
+  --color-bg: #f8fafc;
+  --color-card: rgba(255, 255, 255, 0.7);
+  --color-card-border: rgba(255, 255, 255, 0.6);
+  --color-border: #e2e8f0;
+  
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  --accent: #6366f1;
+  --accent-light: #818cf8;
+  --accent-glow: rgba(99, 102, 241, 0.15);
+  --accent-solid-text: #ffffff;
+  
+  --danger: #ef4444;
+  --danger-light: #fca5a5;
+  --danger-glow: rgba(239, 68, 68, 0.1);
+  
+  --success: #10b981;
+  --success-light: #6ee7b7;
+  --success-glow: rgba(16, 185, 129, 0.1);
+
+  --shadow-sm: 0 2px 8px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 16px -6px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 40px -15px rgba(0, 0, 0, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+  --glass-blur: blur(16px);
+  
+  --input-bg: rgba(255, 255, 255, 0.8);
+  --input-border: #cbd5e1;
+  --input-focus-border: #6366f1;
+  
+  --btn-secondary-bg: rgba(255, 255, 255, 0.8);
+  --btn-secondary-border: #e2e8f0;
+}
+
+:root.dark {
+  /* Dark Mode Variables */
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+  --bg-dots: rgba(99, 102, 241, 0.15);
+  
+  --color-bg: #0b0f19;
+  --color-card: rgba(15, 23, 42, 0.65);
+  --color-card-border: rgba(255, 255, 255, 0.06);
+  --color-border: #1e293b;
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  
+  --accent: #818cf8;
+  --accent-light: #a5b4fc;
+  --accent-glow: rgba(129, 140, 248, 0.25);
+  --accent-solid-text: #0f172a;
+  
+  --danger: #f87171;
+  --danger-light: #fca5a5;
+  --danger-glow: rgba(248, 113, 113, 0.2);
+  
+  --success: #34d399;
+  --success-light: #a7f3d0;
+  --success-glow: rgba(52, 211, 153, 0.2);
+  
+  --shadow-sm: 0 2px 8px -1px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 16px -6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glass-blur: blur(20px);
+  
+  --input-bg: rgba(15, 23, 42, 0.8);
+  --input-border: #334155;
+  --input-focus-border: #818cf8;
+  
+  --btn-secondary-bg: rgba(30, 41, 59, 0.8);
+  --btn-secondary-border: #334155;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background: var(--color-bg);
+  background-image: var(--bg-gradient);
+  min-height: 100vh;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  transition: background-color var(--transition-slow), color var(--transition-normal);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Elegant radial background pattern */
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--bg-dots) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 5px;
+  border: 2px solid var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}

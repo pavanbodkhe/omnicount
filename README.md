@@ -36,6 +36,10 @@ A visually stunning, premium-quality modern React application that integrates a 
 
 ---
 <img width="1900" height="949" alt="image" src="https://github.com/user-attachments/assets/1a37a3a0-0c9b-4295-85ef-120e1b388ef9" />
+<img width="1914" height="958" alt="image" src="https://github.com/user-attachments/assets/4b3061f1-2c33-44e9-b263-4dd720ccb1c2" />
+<img width="1427" height="953" alt="image" src="https://github.com/user-attachments/assets/722adf40-0f49-46d6-a2ed-663ee281f969" />
+
+
 
 
 ## 🚀 Installation & Local Development

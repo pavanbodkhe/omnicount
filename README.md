@@ -35,6 +35,8 @@ A visually stunning, premium-quality modern React application that integrates a 
 *   **Static Code Analysis**: [ESLint](https://eslint.org/)
 
 ---
+<img width="1900" height="949" alt="image" src="https://github.com/user-attachments/assets/1a37a3a0-0c9b-4295-85ef-120e1b388ef9" />
+
 
 ## 🚀 Installation & Local Development
 

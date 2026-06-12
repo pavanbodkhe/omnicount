@@ -8,7 +8,7 @@ A visually stunning, premium-quality modern React application that integrates a 
 
 ### ⏱️ Interactive Counter
 *   **State Persistence**: Counter value is fully preserved inside browser `localStorage` across page refreshes.
-*   **Safety Limits**: Counter is strictly prevented from dipping below `0`.
+*   **Safety Limits**: Counter is prevented from dipping below `0`.
 *   **Visual Celebration Warning**: Triggers an elegant notification toast when the counter reaches `10` or more.
 *   **Quick Reset**: Instantly restore state back to zero.
 
@@ -48,7 +48,7 @@ A visually stunning, premium-quality modern React application that integrates a 
 Ensure you have [Node.js](https://nodejs.org/) installed (version 18+ recommended).
 
 ### 2. Clone and Install Dependencies
-Navigate to the project root directory and run:
+Navigate to the project root directory and run :
 ```bash
 npm install
 ```

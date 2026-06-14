@@ -45,7 +45,7 @@ A visually stunning, premium-quality modern React application that integrates a 
 ## 🚀 Installation & Local Development
 
 ### 1. Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed (version 18+ recommended).
+Ensure you have [Node.js](https://nodejs.org/) installed (version 18+ recommended ).
 
 ### 2. Clone and Install Dependencies
 Navigate to the project root directory and run :

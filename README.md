@@ -119,7 +119,7 @@ The `useEffect` hook lets us synchronize a component with external systems (like
 
 ### 6. Event Handling
 React handles browser actions (like button clicks or input typing) using camelCase event listeners like `onClick` and `onChange`. We pass reference handlers directly to these listeners.
-*   *Example in our code:*
+*   *Example in our code:*      
     ```jsx
     <button onClick={handleIncrement}>+</button>
     ```

@@ -17,7 +17,7 @@ A visually stunning, premium-quality modern React application that integrates  a
 *   **Precise Arithmetic**: Supports addition, subtraction, multiplication, and division of floating-point and integer numbers.
 *   **Smart Decimals**: Rounds off recurring numbers cleanly to avoid layout overflow issues (e.g. `0.1 * 0.2` or division fractions).
 *   **Safety Division Guard**: Renders an alert panel and custom styling when trying to divide a value by zero (`Cannot divide by zero!`). 
-
+ 
 ### 🎨 Visual & Experience Excellence
 *   **Dynamic Theme Toggle**: Seamless transition between a dark space-indigo theme and a light pastel theme.
 *   **Responsive Layout**: Beautiful side-by-side card grid on tablets and desktops that seamlessly stacks into a single-column layout on mobile devices.

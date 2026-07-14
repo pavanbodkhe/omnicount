@@ -12,7 +12,7 @@ A visually stunning, premium-quality modern React application that integrates  a
 *   **Visual Celebration Warning**: Triggers an elegant notification toast when the counter reaches `10` or more. 
 *   **Quick Reset**: Instantly restore state back to zero      
  
-### 🧮 Precision Calculator  
+### 🧮 Precision Calculator   
 *   **Reactive Calculations**: Automatically updates the result in real-time as you type, with no manual "equal" click required.
 *   **Precise Arithmetic**: Supports addition, subtraction, multiplication, and division of floating-point and integer numbers.
 *   **Smart Decimals**: Rounds off recurring numbers cleanly to avoid layout overflow issues (e.g. `0.1 * 0.2` or division fractions).

@@ -11,7 +11,7 @@ A visually stunning, premium-quality modern React application that integrates  a
 *   **Safety Limits**: Counter is prevented from dipping below `0`.   
 *   **Visual Celebration Warning**: Triggers an elegant notification toast when the counter reaches `10` or more. 
 *   **Quick Reset**: Instantly restore state back to zero       
- 
+    
 ### 🧮 Precision Calculator   
 *   **Reactive Calculations**: Automatically updates the result in real-time as you type, with no manual "equal" click required.
 *   **Precise Arithmetic**: Supports addition, subtraction, multiplication, and division of floating-point and integer numbers.

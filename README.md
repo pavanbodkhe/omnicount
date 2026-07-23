@@ -4,7 +4,7 @@ A visually stunning, premium-quality modern React application that integrates  a
 
 ---  
      
-## 🌟 Features     
+## 🌟 Features      
         
 ### ⏱️ Interactive Counter    
 *   **State Persistence**: Counter value  is fully preserved inside  browser `localStorage` across page refreshes.     
